@@ -1,9 +1,9 @@
 import praw
 
 # Initialize the Reddit instance
-reddit = praw.Reddit(client_id='6NU_L-SWNmi6u_l0ZvZhXA',
-                  client_secret='ol7IU_q7o7SIejnnhuJQ0aEe49hqmg',
-                     user_agent='debjit_8925')
+reddit = praw.Reddit(client_id='YOUR_CLIENT_ID',
+                     client_secret='YOUR_CLIENT_SECRET',
+                     user_agent='YOUR_USER_AGENT')
 
 # Define the subreddit you want to scrape
 subreddit_name = 'AskReddit'
