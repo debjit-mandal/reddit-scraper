@@ -28,6 +28,14 @@ To scrape Reddit using Python, we have to use the praw library, which is a Pytho
 
 - Also, adjust the `subreddit_name` and `num_posts` variables according to your requirements.
 
+To run this code locally:
+
+`git clone https://github.com/debjit-mandal/reddit-scraper`
+
+`cd reddit-scraper`
+
+`python main.py`
+
 ### Sample Output
 
 ````
@@ -165,12 +173,6 @@ Comments:
 
 How often do you go out to your garden and try to communicate with the bugs?
 ````
-To run this code locally:
 
-`git clone https://github.com/debjit-mandal/reddit-scraper`
-
-`cd reddit-scraper`
-
-`python main.py`
 
 Feel free to suggest any kind of improvements.
