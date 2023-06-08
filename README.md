@@ -10,23 +10,23 @@ To scrape Reddit using Python, we have to use the praw library, which is a Pytho
 
 2.Create a Reddit developer application:
 
-Go to https://www.reddit.com/prefs/apps and log in to your Reddit account.
+- Go to https://www.reddit.com/prefs/apps and log in to your Reddit account.
 
-Scroll down to the "Developed Applications" section and click on "Create App".
+- Scroll down to the "Developed Applications" section and click on "Create App".
 
-Fill in the required fields (name, description, etc.).
+- Fill in the required fields (name, description, etc.).
 
-Set the "App type" to "script".
+- Set the "App type" to "script".
 
-Enter a redirect URI (you can use http://localhost:8080 for testing purposes).
+- Enter a redirect URI (you can use http://localhost:8080 for testing purposes).
 
-Click on "Create app" to create your application.
+- Click on "Create app" to create your application.
 
-Note down the "Client ID" and "Client Secret" values.
+- Note down the "Client ID" and "Client Secret" values.
 
-Make sure to replace 'YOUR_CLIENT_ID', 'YOUR_CLIENT_SECRET', and 'YOUR_USER_AGENT' with your actual Reddit developer application values. 
+- Make sure to replace 'YOUR_CLIENT_ID', 'YOUR_CLIENT_SECRET', and 'YOUR_USER_AGENT' with your actual Reddit developer application values. 
 
-Also, adjust the `subreddit_name` and `num_posts` variables according to your requirements.
+- Also, adjust the `subreddit_name` and `num_posts` variables according to your requirements.
 
 ### Sample Output
 
